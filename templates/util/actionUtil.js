@@ -1,6 +1,7 @@
 /**
  * Module dependencies
  */
+const async = require('async');
 const { camelCase, extend, isPlainObject, isString, isUndefined, merge, omit } = require('lodash');
 const util = require('util');
 // Parameter used for jsonp callback is constant, as far as
